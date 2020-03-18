@@ -1,0 +1,14 @@
+@import '../Var.scss';
+
+.hero{
+    height: 320px;
+    background-color: $ColorContraste;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image{
+    object-fit: cover;
+}

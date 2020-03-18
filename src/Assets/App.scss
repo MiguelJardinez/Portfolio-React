@@ -1,0 +1,66 @@
+@import './Var.scss';
+@import './media.scss'; 
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: -1.5px;
+    color: white;
+    margin: 0;
+}
+
+h1 strong{
+    color: $ColorPrincipal;
+    margin: 0;
+}
+
+h2{
+    text-transform: uppercase;
+    color: $ColorPrincipal;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+ol, li{
+    list-style: none;
+    margin: 0;;
+}
+
+figure{
+    margin: 0;
+}
+.burger-button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    position: fixed;
+    color: white;
+    z-index: 4;
+    right: 0;;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+.container{
+  max-width: 1000px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}

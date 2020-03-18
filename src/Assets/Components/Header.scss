@@ -1,0 +1,38 @@
+@import '../Var.scss';
+
+.header{
+    background-color: $ColorContraste;
+    color: $ColorBlanco;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.juntos{
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid $ColorBlanco;
+    border-radius: 10px;
+}
+
+.logo{
+    margin: 0;
+    display: flex;
+}
+
+.header ol{
+    display: flex;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    color: $ColorBlanco;
+    text-decoration: none;
+    padding: 0 15px;
+    height: 100px;;
+    font-size: 18px;
+}

@@ -1,0 +1,48 @@
+@import '../Var.scss';
+
+.experience{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 47%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: $ColorPrincipal;
+    margin-bottom: 30px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.experience img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-list-title {
+    margin-left: 20px;
+  }
+
+.experience-url {
+    color: $ColorBlanco;
+    text-decoration: none;
+    border: 1px solid $ColorBlanco;
+    padding: 8px 20px;;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.experience-details{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: $ColorContraste;
+    color: $ColorBlanco;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.experience-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

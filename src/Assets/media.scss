@@ -1,0 +1,289 @@
+
+@media screen and (max-width: 1023px){
+    h1{
+        z-index: 2;
+        font-size: 3em;
+        text-shadow: 1px 2px 2px #000;
+    }
+    .header{
+        height: auto;;
+    }
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero-image{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        filter: opacity(80%) blur(1px);
+    }
+    .header img{
+        margin-bottom: 5px;
+    }
+    .experience-list-title{
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    .project-course{
+        font-size: .9em;
+    }
+    .project-date{
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width:767px){
+    .burger-button{
+        display: flex;
+    }
+    .menu ol{
+        font-size: .9em;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .menu a{
+        border-radius: 10px;
+        width: 100%;
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        margin-bottom: 1em;
+    }
+    h3{
+        margin:0;
+    }
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header ol{
+        display: initial;
+        width: 100%;
+    }
+    .header a{
+        justify-content: center;
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .header .logo{
+        justify-content: center;
+    }
+    .header img{
+        margin-top: 1em;
+        margin-bottom: .7em;
+    }
+    .menu{
+        position: fixed;
+        background-color: rgba(0,0,0,.8);
+        z-index: 4;
+        width: 50vw;
+        left: -100vw;
+        top: -5px;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 800ms;
+    }
+    .menu.is-active{
+        left: 0;
+    }
+    .project{
+        display: block;
+    }
+    .experience-list-title{
+        margin-bottom: .4em;
+    }
+    .project-imageContainer{
+        width: auto;
+        text-align: center;
+    }
+    .project-url{
+        font-size: 1.1em;
+    }
+    .experience-description{
+        font-size: .8em;
+    }
+    .experience a{
+        padding: 7px;
+    }
+    .experience-tittle{
+        margin: .5em 0;
+    }
+    .miguel-portfolio{
+        display: flex;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .social-link{
+        width: 50px;
+        height: 50px;
+        background-size: 100%;
+        margin-left: -7px;
+        margin-right: 14px;
+    }
+    .social{
+        margin-left: 34px;
+    }
+    .form-email{
+        margin-left: 20px;
+    }
+    .footer-miguel{
+        margin-left: 20px;
+        font-size: 1.2em;
+    }
+    .footer-diseno{
+        margin-right: 20px;
+        font-size: 1.2em;
+    }
+    .juntos{
+        border: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 1.5em;
+    }
+    .project-details{
+        font-size: 1em;
+    }
+    .project-description{
+        font-size: 1em;
+    }
+    .experience{
+        width: 85%;
+        flex-shrink: initial;
+    }
+    .experience img{
+        width: 100%;
+        flex-shrink: initial;
+    }
+    .project-details{
+        font-size: .8em;
+        height: auto;
+    }
+    .project-imageContainer{
+        width: auto;
+        text-align: center;
+    }
+    .project-imageContainer img{
+        max-width: 100%;
+    }
+    .contact{
+        height: auto;
+        width: 100%;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button{
+        margin: 1em auto;
+    }
+    .form-email h3{
+        margin-top: 0;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    .social{
+        margin: 0;
+    }
+    .social-link{
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
+        
+        margin-left: 20px;
+    }
+    #email{
+        margin-bottom: 0;
+        margin-top: 10px;
+        width: 50%;
+    }
+    .footer-miguel{
+        margin-left: 15px;
+        font-size: .9em;
+    }
+    .footer-diseno{
+        margin-right: 15px;
+        font-size: .9em;
+        height: 36.4;
+    }
+}
+
+@media screen and (max-width: 370px){
+    h1{
+        font-size: 1.4em;
+        letter-spacing: -1px;
+    }
+    h2{
+        margin-top: 0;
+        font-size: .9em;
+    }
+    .project-tittle h3{
+        font-size: .7em;
+    }
+    .experience{
+        width: 100%;
+        flex-shrink: initial;
+    }
+    .experience-description{
+        font-size: .7em;
+    }
+    .experience-details{
+        width: auto;
+        margin: 20px 10px;
+    }
+    .experience-list-title{
+        margin-top: 10px;
+    }
+    .experience img{
+        width: 100%;
+        flex-shrink: initial;
+    }
+    .social{
+        margin-top: 20px;
+    }
+    .social-link{
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+        margin-left: 20px;
+    }
+    .footer p{
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .footer-diseno{
+        margin-left: 22%;
+        margin-right: 30px;
+        font-size: .8em;
+    }
+    .footer-miguel{
+        margin-left: 100px;
+        font-size: 1em;
+        display: block;
+        margin-left: 40px;
+        margin-bottom: 0;
+    }
+    .menu{
+        font-size: .6em;
+    }
+}

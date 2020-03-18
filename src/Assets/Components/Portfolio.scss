@@ -1,0 +1,46 @@
+@import '../Var.scss'; 
+
+.portfolio{
+    background-color: $ColorBlanco;
+    padding: 20px;
+}
+
+.project-url a{
+    text-decoration: none;
+    color: $ColorPrincipal;
+}
+
+.project{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    background: $ColorBlanco;
+    margin-bottom: 20px;
+}
+
+.project-imageContainer{
+    width: 500px;
+    object-fit: cover;
+}
+
+.project-course,
+.project-date,
+.project-url{
+    margin: 10px 0;
+}
+
+.project-description{
+    font-size: 16px;
+    padding-right: 30px;
+}
+
+.project-tittle{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-details{
+    height: 300px;
+}
